@@ -1,0 +1,29 @@
+{
+  "method": "New generated bowl and falling drops, pigment-only transfer to bare lower-right rock with multiply blending.",
+  "ancestor": "artifacts/line-4/wall-v20.png",
+  "ancestor_sha256": "ff99e0ad28041caa25cabd0e61aef3411a59f3c4c23ff3753660ae379825fb9b",
+  "donor_sha256": "0149a5cd66eb5340f43770c8e2b93918f8ba4ebef1cb1383a4f07b34020665b4",
+  "source": [
+    975,
+    950,
+    1125,
+    1080
+  ],
+  "destination": [
+    790,
+    1080,
+    940,
+    1210
+  ],
+  "changed_pixels": 3584,
+  "changed_bbox_xyxy_inclusive": [
+    800,
+    1089,
+    930,
+    1200
+  ],
+  "outside_mask_changed_pixels": 0,
+  "mask_sha256": "7dd98bb376e0e853f7856b6446e514f4333d839f2a2495db73ca7a07fc4caf9a",
+  "final_sha256": "afe003a57355499c727e691338d865a1da9b0681e181345677bce8fc0536091f",
+  "preservation": "All decoded pixels outside the new pigment mask match the latest ancestor exactly."
+}

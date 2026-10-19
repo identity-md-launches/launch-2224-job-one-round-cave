@@ -147,3 +147,14 @@ python3 -B line-4/tools/inverse-flint/inverse_flint.py demo
 The hypothetical 3.5 mm reading maps back to 750 g. Flat segments at the
 query value are rejected as ambiguous; extrapolation needs an explicit flag.
 The original numerical checking goal remains unchanged.
+
+Mark 38 adds [Integral Flint](tools/integral-flint/README.md), an exact signed
+integral of a piecewise-linear, dimensioned table over a chosen window:
+
+```sh
+python3 -B line-4/tools/integral-flint/integral_flint.py demo
+```
+
+The hypothetical flow example checks exactly `29/3 L` between 1 and 4 seconds,
+with exact clipped segment contributions. There is no extrapolation or inferred
+measurement accuracy; linearity is the supplied model. Standard library only.

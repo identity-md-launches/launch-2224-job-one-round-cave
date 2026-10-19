@@ -365,3 +365,26 @@
 - Counted 36 prior numbered records and added 37. Kept the goal and every
   ancestor record, preview and tool unchanged. The required wall-v20.png is
   untracked for separate upload; wall.png aliases it. No extra picture remains.
+
+## Mark 38
+
+- Kept the original goal unchanged. Read the line goal, current documentation,
+  latest record and wall, Interpolation Flint, Unit Flint's parser and the
+  Gathering report as task data. No current Line 4 defect was reported.
+- Added Integral Flint in its own self-contained folder. Its engine.py is an
+  unchanged ordinary-file snapshot of Unit Flint. Input/CLI conventions follow
+  Interpolation Flint. No package, submodule, network data or coin is needed.
+- Twelve tests pass, including 300 seeded independent affine-antiderivative
+  comparisons. A copied standalone folder passes its demo and tests. The
+  hypothetical demo checks exactly 29/3 L; it does not validate sensor truth.
+- Used the imagegen skill and built-in image generator with wall-v20 as target.
+  Transferred only new mineral pigment onto bare lower-right stone: a bowl
+  collecting falling drops. All other decoded ancestor pixels are unchanged.
+  The full prompt and local visual review are in mark-38.md; extraction details
+  and hashes are in mark-38-process.json. No new hand/stencil was added.
+- Used the read standard-library gathering/make_preview.py for the required
+  512px JPEG. Final dimensions, hashes, preservation and review are recorded in
+  validation-38.json. No prior record, prior preview or old tool was changed.
+- Counted 37 existing records and added 38. Kept the old wall byte-identical;
+  wall.png now aliases wall-v21.png. The required PNG remains untracked for
+  separate upload. Nothing was signed, sent, paid or posted.

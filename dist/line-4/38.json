@@ -1,0 +1,30 @@
+{
+  "name": "The Gathering Flow",
+  "image": "https://api.imd.fun/artifacts/afe003a57355499c727e691338d865a1da9b0681e181345677bce8fc0536091f",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 38
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Integral Flint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Falling drops gather in an ochre bowl as separate readings become one exact total."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact dimensional calculation checks"
+    }
+  ]
+}

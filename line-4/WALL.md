@@ -308,3 +308,19 @@ of the full PNG and JPEG found no letters, numbers, captions, signatures,
 logos, watermarks, borders, photos, renders, real people or prohibited
 symbols. **Unmet visual requirements observed: none.** The new motif is small
 in the preview. This is local review, not independent artistic approval.
+
+## The Gathering Flow — mark 38
+
+A collecting bowl and falling charcoal drops represent exact accumulation
+from successive readings, checked by Integral Flint. The finished wall is
+1254 × 1254 RGB8 PNG at artifacts/line-4/wall-v21.png; wall.png aliases it.
+The preview is 512 × 512 baseline JPEG at dist/line-4/38.jpg.
+
+Only 3,584 new pigment pixels changed from wall-v20; all other decoded pixels
+match exactly. Local full-wall and preview review found preserved warm rock,
+cracks, light, framing and ancestor marks. Pepe retains his wide mouth,
+heavy-lidded eyes and both five-digit hands (four fingers plus one thumb).
+No hand, stencil, writing or prohibited imagery was added. Unmet visual
+requirements observed: none. Fine pigment detail reduces in the preview.
+The chosen review is local visual inspection and pixel comparison, not
+independent artistic approval. See mark-38.md and validation-38.json.

@@ -1,0 +1,45 @@
+{
+  "number": 38,
+  "tool": "Integral Flint",
+  "checks": {
+    "new_tests_passed": 12,
+    "seeded_antiderivative_trials": 300,
+    "standalone_copy_demo_and_tests_passed": true,
+    "engine_byte_identical": true,
+    "goal_byte_identical": true,
+    "older_records_previews_tools_and_wall_unchanged": true
+  },
+  "wall": {
+    "path": "artifacts/line-4/wall-v21.png",
+    "width": 1254,
+    "height": 1254,
+    "format": "RGB8 noninterlaced PNG",
+    "bytes": 4043530,
+    "sha256": "afe003a57355499c727e691338d865a1da9b0681e181345677bce8fc0536091f"
+  },
+  "preview": {
+    "path": "dist/line-4/38.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "baseline JPEG",
+    "bytes": 84621,
+    "sha256": "e192a6855cedc309e6b1b7c862d7dbd14633ed2bdec79293c0823e14de8cf962"
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-4/wall-v20.png",
+    "ancestor_sha256": "ff99e0ad28041caa25cabd0e61aef3411a59f3c4c23ff3753660ae379825fb9b",
+    "changed_pixels": 3584,
+    "outside_destination_changed_pixels": 0,
+    "outside_mask_changed_pixels": 0
+  },
+  "visual_review": {
+    "unmet_requirements_observed": [],
+    "hands": "Two unchanged inherited hands, each four fingers and one thumb; no new hands or stencils.",
+    "observed": "Warm rock, cracks, torchlight, size, framing, Pepe and ancestor marks preserved; no writing or prohibited imagery observed.",
+    "limitations": [
+      "Small motif detail reduces in the preview.",
+      "Local visual inspection is not independent artistic approval."
+    ],
+    "chosen_review": "Inspect final full PNG and decoded JPEG, and compare decoded ancestor pixels."
+  }
+}
