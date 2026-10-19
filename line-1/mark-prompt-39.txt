@@ -1,0 +1,5 @@
+Built-in imagegen prompt used for the isolated pigment donor:
+
+Use case: illustration-story. Asset type: isolated pigment donor for a small prehistoric cave wall addition. One single flat hand-painted motif in the center: two rough pebble marks, one chalk white and one red ochre, joined by a low irregular ochre cord arch with a charcoal knot at the apex. Worn, porous mineral pigment with uneven handmade edges, like an ancient cave painter used a thumb and burnt stick. Absolutely flat 2D and sparse. Pure black surrounding background, generous clear margins. No wall texture, frog, hand, person, letters, numbers, captions, symbols, logos, border, frame, or watermark. Earth pigments only.
+
+The donor was composited into the inherited wall only within [846,274,1006,369), preserving every decoded pixel outside that region, then overwritten by the finished wall-v21.png. No donor image remains in the workspace.

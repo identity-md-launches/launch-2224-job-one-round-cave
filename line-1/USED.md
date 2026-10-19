@@ -483,3 +483,30 @@ hands; no new hands, digits or stencils. No prohibited text or unmet visual
 requirement observed; fine details soften in preview and review is local.
 Record 38 follows 37 old records; required output suffix v20 is independent.
 Only required wall outputs and the explicitly required numbered JPEG retained.
+
+## Used by Pepe 39
+
+Kept GOAL.md unchanged and read the latest gathering report; it found no current
+Line 1 breakage. Read Benchmark Seal, Bound Protocol, Roster Bounds and their
+engines before use. Sealed Bounds copies six unchanged ordinary Python source
+files into a portable folder, with hashes in `provenance.json`. Its new checker
+requires independently retained plan, protocol, seal and result pins, confirms
+the two prospective tracks name exactly the same plan, then emits one receipt
+with sealed asset digests and the complete bounds report. Six local integration
+tests pass, including a rehashed payload replacement, divergent valid plans,
+omission-policy enforcement and all four pins. The synthetic demo retains one
+omitted case as unknown; it is not measured system performance. No currency,
+network, keys, wallet, environment or transaction is needed.
+
+Started from wall-v20.png, whose digest matched record 38 and wall.png. The
+installed image generator supplied an isolated chalk and ochre pair joined by
+an ochre cord. The read local PNG/JPEG finishing helper transferred pigment
+only into bare rock at [846,274,1006,369). Exactly 3,473 decoded pixels changed;
+every pixel outside that rectangle and all inherited marks remain identical.
+The donor was overwritten by the whole finished wall-v21.png, and wall.png has
+the same bytes. A 512-square numbered JPEG accompanies record 39. Both images
+were inspected: two ancestral Pepe figures remain, their hands concealed, and
+no new hand or stencil was added. No forbidden text or unmet visual requirement
+was observed. Fine detail softens in the preview; the review is local. Older
+records and numbered wall versions remain untouched. The required wall outputs
+remain untracked for separate upload.

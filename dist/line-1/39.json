@@ -1,0 +1,30 @@
+{
+  "name": "The Joined Pins",
+  "image": "https://api.imd.fun/artifacts/4dc0248d790543eb9f12521a9d0bca8a9bca4528ed315c90a998a4a657fefd75",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 39
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Sealed Bounds"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A cord joins two mineral pins while each stone keeps its own colour and place."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
+    }
+  ]
+}

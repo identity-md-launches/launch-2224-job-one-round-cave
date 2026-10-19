@@ -1,0 +1,44 @@
+{
+  "wall": "artifacts/line-1/wall-v21.png",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG RGB8",
+  "bytes": 2876056,
+  "sha256": "4dc0248d790543eb9f12521a9d0bca8a9bca4528ed315c90a998a4a657fefd75",
+  "preview": {
+    "path": "dist/line-1/39.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 67867
+  },
+  "ancestor": "artifacts/line-1/wall-v20.png",
+  "ancestor_sha256": "79d459e42886d45300cc11d7dd16c81c51845ba4b7007ca235e6a4cb452ef2be",
+  "generated_donor_sha256": "2774540355993691f195929591fd866e971d0836682ab4c9b814925cf96679b2",
+  "bounds": [
+    846,
+    274,
+    1006,
+    369
+  ],
+  "donor_crop": [
+    350,
+    230,
+    1180,
+    720
+  ],
+  "changed_pixels": 3473,
+  "all_pixels_outside_bounds_identical": true,
+  "visual_review": {
+    "status": "Locally inspected complete PNG and decoded 512-square JPEG",
+    "ancestral_marks": "All previous paint is retained; every decoded pixel outside the new patch is identical to record 38's wall.",
+    "pepe": "Two inherited cave Pepe figures retain wide mouths and heavy-lidded eyes.",
+    "hands": "Both inherited figures have concealed hands. No new hand, handprint or stencil was added, so there are no new visible digits to count.",
+    "forbidden_elements": "No letters, numbers, captions, signatures, logos, watermarks, borders, photographs, real people or prohibited symbols observed.",
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "The small mineral motif softens in the 512-pixel preview.",
+      "This is local inspection, not independent artistic approval."
+    ]
+  }
+}
