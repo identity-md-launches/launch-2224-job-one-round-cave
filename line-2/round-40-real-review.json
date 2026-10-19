@@ -1,0 +1,400 @@
+{
+  "reviews": [
+    {
+      "path": "gathering/REPORT.md",
+      "classification": "actual local text; source examples are intentional, not attack evidence",
+      "report": {
+        "schema_version": 1,
+        "tool": "javascript-unicode/1",
+        "source_sha256": "1785e2f83c84384b7241ad44d2deaccc2d5ac255c645e6a0e1787e41d26fff88",
+        "source_bytes": 13486,
+        "unicode_version": "15.0.0",
+        "analysis_complete": true,
+        "candidate_count": 0,
+        "counts_by_kind": {},
+        "detail_cap": 8,
+        "retained_details": 0,
+        "omitted_details": 0,
+        "details": [],
+        "limitations": [
+          "Lexical candidates, not a JavaScript parser: comments, raw templates, regular expressions and non-JavaScript text are included.",
+          "No claim that a runtime interprets a candidate or accepts it in an identifier. Grammar, string context, rendering and intent are outside scope.",
+          "Only lowercase backslash-u, four-hex and braced-hex forms. Other backslash pairs are skipped, not decoded; decoded output is never rescanned.",
+          "Only immediately adjacent fixed-width high/low surrogates combine. This is a UTF-16 evidence view, not identifier validity or language evaluation.",
+          "Braced surrogates and lone fixed surrogates remain code units without UTF-8 encoding. Other literal characters and decoding layers need separate review.",
+          "Malformed candidates stop before the first unexpected byte; later candidates remain visible. Braced hex accepts leading zeroes and checks numeric range.",
+          "Ranges are zero-based half-open original UTF-8 bytes; line and byte column are one-based with LF-only line breaks.",
+          "Counts cover all input; details may be omitted. Unicode names/categories depend on the reported runtime database version.",
+          "ASCII JSON is suitable for terminal display, not HTML embedding. Hashes prove identity, not authenticity. No findings does not establish safety."
+        ]
+      }
+    },
+    {
+      "path": "line-2/tools/javascript-unicode/javascript_unicode.py",
+      "classification": "actual local text; source examples are intentional, not attack evidence",
+      "report": {
+        "schema_version": 1,
+        "tool": "javascript-unicode/1",
+        "source_sha256": "73c1d9119918732867b32676f66c05942ffb1a0c07558e4dca98c320e8c9bb3d",
+        "source_bytes": 7270,
+        "unicode_version": "15.0.0",
+        "analysis_complete": true,
+        "candidate_count": 4,
+        "counts_by_kind": {
+          "non-ascii-or-control": 3,
+          "surrogate-code-unit": 1
+        },
+        "detail_cap": 8,
+        "retained_details": 4,
+        "omitted_details": 0,
+        "details": [
+          {
+            "source_byte_range": [
+              323,
+              330
+            ],
+            "component_byte_ranges": [
+              [
+                323,
+                330
+              ]
+            ],
+            "source_line": 14,
+            "source_byte_column": 20,
+            "source_escape_hex": "5c757b3435367d",
+            "source_span_sha256": "4b20f4ee30041250d7ec60cd0cbe0d36fa860fe136cd91a9353a4d526a7732e6",
+            "form": "braced",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+0456",
+              "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+              "category": "Ll",
+              "utf8_hex": "d196"
+            }
+          },
+          {
+            "source_byte_range": [
+              335,
+              347
+            ],
+            "component_byte_ranges": [
+              [
+                335,
+                341
+              ],
+              [
+                341,
+                347
+              ]
+            ],
+            "source_line": 14,
+            "source_byte_column": 32,
+            "source_escape_hex": "5c75443833445c7544433338",
+            "source_span_sha256": "88c96673a2ffdf351cb80561c741cd20e05779526b66566e54163f3d48f2c6d1",
+            "form": "fixed-surrogate-pair",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+1F438",
+              "name": "FROG FACE",
+              "category": "So",
+              "utf8_hex": "f09f90b8"
+            }
+          },
+          {
+            "source_byte_range": [
+              369,
+              375
+            ],
+            "component_byte_ranges": [
+              [
+                369,
+                375
+              ]
+            ],
+            "source_line": 14,
+            "source_byte_column": 66,
+            "source_escape_hex": "5c7532303245",
+            "source_span_sha256": "199d698cfedf7f5c37478cf2b4a30a877b67bfd7975be8b96aaaa336d798550f",
+            "form": "fixed",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+202E",
+              "name": "RIGHT-TO-LEFT OVERRIDE",
+              "category": "Cf",
+              "utf8_hex": "e280ae"
+            }
+          },
+          {
+            "source_byte_range": [
+              392,
+              398
+            ],
+            "component_byte_ranges": [
+              [
+                392,
+                398
+              ]
+            ],
+            "source_line": 14,
+            "source_byte_column": 89,
+            "source_escape_hex": "5c7544383030",
+            "source_span_sha256": "7624feb2a003e001cb1a6628a895d61002e34885a2e965642734eb8d40794957",
+            "form": "fixed",
+            "kind": "surrogate-code-unit",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+D800",
+              "name": "UNNAMED",
+              "category": "Cs",
+              "utf8_hex": null
+            }
+          }
+        ],
+        "limitations": [
+          "Lexical candidates, not a JavaScript parser: comments, raw templates, regular expressions and non-JavaScript text are included.",
+          "No claim that a runtime interprets a candidate or accepts it in an identifier. Grammar, string context, rendering and intent are outside scope.",
+          "Only lowercase backslash-u, four-hex and braced-hex forms. Other backslash pairs are skipped, not decoded; decoded output is never rescanned.",
+          "Only immediately adjacent fixed-width high/low surrogates combine. This is a UTF-16 evidence view, not identifier validity or language evaluation.",
+          "Braced surrogates and lone fixed surrogates remain code units without UTF-8 encoding. Other literal characters and decoding layers need separate review.",
+          "Malformed candidates stop before the first unexpected byte; later candidates remain visible. Braced hex accepts leading zeroes and checks numeric range.",
+          "Ranges are zero-based half-open original UTF-8 bytes; line and byte column are one-based with LF-only line breaks.",
+          "Counts cover all input; details may be omitted. Unicode names/categories depend on the reported runtime database version.",
+          "ASCII JSON is suitable for terminal display, not HTML embedding. Hashes prove identity, not authenticity. No findings does not establish safety."
+        ]
+      }
+    },
+    {
+      "path": "line-2/tools/javascript-unicode/test_javascript_unicode.py",
+      "classification": "actual local text; source examples are intentional, not attack evidence",
+      "report": {
+        "schema_version": 1,
+        "tool": "javascript-unicode/1",
+        "source_sha256": "59c65cb43aafeadde3046852f06c2019e760c80e226b97f7ac827c1faa9cf47f",
+        "source_bytes": 7926,
+        "unicode_version": "15.0.0",
+        "analysis_complete": true,
+        "candidate_count": 39,
+        "counts_by_kind": {
+          "ascii": 2,
+          "malformed": 10,
+          "non-ascii-or-control": 12,
+          "surrogate-code-unit": 15
+        },
+        "detail_cap": 8,
+        "retained_details": 8,
+        "omitted_details": 31,
+        "details": [
+          {
+            "source_byte_range": [
+              1949,
+              1964
+            ],
+            "component_byte_ranges": [
+              [
+                1949,
+                1964
+              ]
+            ],
+            "source_line": 49,
+            "source_byte_column": 41,
+            "source_escape_hex": "5c757b30303030303031663433387d",
+            "source_span_sha256": "1a02079cae1db81191e88a4b30b3da66f790eea99a413cfff2aeb6c7f8938fa2",
+            "form": "braced",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+1F438",
+              "name": "FROG FACE",
+              "category": "So",
+              "utf8_hex": "f09f90b8"
+            }
+          },
+          {
+            "source_byte_range": [
+              1964,
+              1974
+            ],
+            "component_byte_ranges": [
+              [
+                1964,
+                1974
+              ]
+            ],
+            "source_line": 49,
+            "source_byte_column": 56,
+            "source_escape_hex": "5c757b3130666666667d",
+            "source_span_sha256": "71454b3e01b2dca4b5e10593688ec0515700cd470c38bbc88b82139f526c7d25",
+            "form": "braced",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+10FFFF",
+              "name": "UNNAMED",
+              "category": "Cn",
+              "utf8_hex": "f48fbfbf"
+            }
+          },
+          {
+            "source_byte_range": [
+              1974,
+              1979
+            ],
+            "component_byte_ranges": [
+              [
+                1974,
+                1979
+              ]
+            ],
+            "source_line": 49,
+            "source_byte_column": 66,
+            "source_escape_hex": "5c757b307d",
+            "source_span_sha256": "228aa4eba241833523198e3639f9393e2f8bb2a19b5b9a32da08542ffcfb07f2",
+            "form": "braced",
+            "kind": "non-ascii-or-control",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+0000",
+              "name": "UNNAMED",
+              "category": "Cc",
+              "utf8_hex": "00"
+            }
+          },
+          {
+            "source_byte_range": [
+              2123,
+              2133
+            ],
+            "component_byte_ranges": [
+              [
+                2123,
+                2133
+              ]
+            ],
+            "source_line": 51,
+            "source_byte_column": 23,
+            "source_escape_hex": "5c757b3131303030307d",
+            "source_span_sha256": "8d7523f287312e48edc9a67888ee000d80a6cd51a6437319ad8f6bfb3f0b3be6",
+            "form": "braced",
+            "kind": "malformed",
+            "issue": "out-of-range",
+            "decoded_codepoint": null
+          },
+          {
+            "source_byte_range": [
+              2295,
+              2303
+            ],
+            "component_byte_ranges": [
+              [
+                2295,
+                2303
+              ]
+            ],
+            "source_line": 55,
+            "source_byte_column": 41,
+            "source_escape_hex": "5c757b643833647d",
+            "source_span_sha256": "b522d4fe1de1a41b2b9aef537c3d98e570978b0e38a66395419c36ccdb8020b7",
+            "form": "braced",
+            "kind": "surrogate-code-unit",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+D83D",
+              "name": "UNNAMED",
+              "category": "Cs",
+              "utf8_hex": null
+            }
+          },
+          {
+            "source_byte_range": [
+              2303,
+              2311
+            ],
+            "component_byte_ranges": [
+              [
+                2303,
+                2311
+              ]
+            ],
+            "source_line": 55,
+            "source_byte_column": 49,
+            "source_escape_hex": "5c757b646333387d",
+            "source_span_sha256": "32d411440d9fe71a8142af41a6a3d9b68f0900b1e49ee626b31682ba5a49ec84",
+            "form": "braced",
+            "kind": "surrogate-code-unit",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+DC38",
+              "name": "UNNAMED",
+              "category": "Cs",
+              "utf8_hex": null
+            }
+          },
+          {
+            "source_byte_range": [
+              2377,
+              2383
+            ],
+            "component_byte_ranges": [
+              [
+                2377,
+                2383
+              ]
+            ],
+            "source_line": 56,
+            "source_byte_column": 41,
+            "source_escape_hex": "5c7544383344",
+            "source_span_sha256": "b0e25f1387ad56d1e1048d274783fb4b68a9f33e3e9b0cf1b8db4216f78a4f6b",
+            "form": "fixed",
+            "kind": "surrogate-code-unit",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+D83D",
+              "name": "UNNAMED",
+              "category": "Cs",
+              "utf8_hex": null
+            }
+          },
+          {
+            "source_byte_range": [
+              2383,
+              2391
+            ],
+            "component_byte_ranges": [
+              [
+                2383,
+                2391
+              ]
+            ],
+            "source_line": 56,
+            "source_byte_column": 47,
+            "source_escape_hex": "5c757b444333387d",
+            "source_span_sha256": "9289063114a8e523e487321e02b3cf36fdc2859e8069cf7411eddc7a34a9ef5d",
+            "form": "braced",
+            "kind": "surrogate-code-unit",
+            "issue": null,
+            "decoded_codepoint": {
+              "codepoint": "U+DC38",
+              "name": "UNNAMED",
+              "category": "Cs",
+              "utf8_hex": null
+            }
+          }
+        ],
+        "limitations": [
+          "Lexical candidates, not a JavaScript parser: comments, raw templates, regular expressions and non-JavaScript text are included.",
+          "No claim that a runtime interprets a candidate or accepts it in an identifier. Grammar, string context, rendering and intent are outside scope.",
+          "Only lowercase backslash-u, four-hex and braced-hex forms. Other backslash pairs are skipped, not decoded; decoded output is never rescanned.",
+          "Only immediately adjacent fixed-width high/low surrogates combine. This is a UTF-16 evidence view, not identifier validity or language evaluation.",
+          "Braced surrogates and lone fixed surrogates remain code units without UTF-8 encoding. Other literal characters and decoding layers need separate review.",
+          "Malformed candidates stop before the first unexpected byte; later candidates remain visible. Braced hex accepts leading zeroes and checks numeric range.",
+          "Ranges are zero-based half-open original UTF-8 bytes; line and byte column are one-based with LF-only line breaks.",
+          "Counts cover all input; details may be omitted. Unicode names/categories depend on the reported runtime database version.",
+          "ASCII JSON is suitable for terminal display, not HTML embedding. Hashes prove identity, not authenticity. No findings does not establish safety."
+        ]
+      }
+    }
+  ]
+}

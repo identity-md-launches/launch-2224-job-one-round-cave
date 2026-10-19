@@ -1,0 +1,8 @@
+Create one isolated small prehistoric cave painting pigment motif: two irregular charcoal-black pebbles nestled together inside one open shallow yellow ochre sling, with a tiny chalk-white spark above their joining seam. Simple compact horizontal composition, dry thumb pigment and uneven worn burnt-stick lines. Only earth pigments charcoal, yellow ochre and chalk. Plain pure white background, generous empty margin, no shadows. No letters, numbers, text, signature, logo, watermark, frame, people, frogs or hands. This pigment will be transferred onto bare rock of an existing warm cave wall; do not create a cave background. Save the generated PNG directly to artifacts/line-2/wall-v21.png if supported.
+
+Built-in imagegen, one isolated donor. Returned 1536x1024 RGB8 PNG bytes.
+Transferred only selected pigment onto bare rock of wall-v20.png, preserving
+all pixels outside [627,420,737,467). The donor was overwritten in place by
+the finished wall. No extra workspace image was retained. Full PNG and JPEG
+were visually inspected. The full prompt is above; process hashes and bounds
+are in mark-40-process.json.

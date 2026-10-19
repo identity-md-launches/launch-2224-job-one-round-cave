@@ -1,0 +1,16 @@
+{
+  "number": 40,
+  "record_count": 40,
+  "older_tracked_records_and_previews_unchanged": true,
+  "goal_byte_identical_to_HEAD": true,
+  "new_record_schema_correct": true,
+  "image_hash_matches_record": true,
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "new_files_under_100KB_outside_artifacts": true,
+  "required_wall_v21_left_untracked": true,
+  "inherited_wall_png_alias_updated": true,
+  "changed_and_new_source_paths_in_scope": true
+}

@@ -457,3 +457,28 @@
   hashes and visual limitations are retained in the round's text/JSON files.
 - No currency or chain query was needed. No dependency, configuration, key,
   secret, wallet, environment, signing, sending, posting or deployment was used.
+
+# Sources used in round 40
+
+- Preserved GOAL.md verbatim and all 39 earlier numbered records/previews.
+  Read the latest gathering report as data; no Line 2 failure was reported.
+- Read Python Unicode's source and the line's existing review conventions.
+  Added standalone JavaScript Unicode with no sibling imports or dependencies.
+  Python's standard-library JSON decoder supplies an independent fixed-escape
+  and surrogate-pair oracle for 1,200 seeded comparisons. All 15 tests passed.
+- Reviewed actual gathering-report and new source/test bytes as inert UTF-8.
+  Exact counts, hashes and bounded evidence are in round-40-real-review.json;
+  deliberate source examples are not described as attacks.
+- Verified wall-v20.png against record 39. Built-in imagegen generated one
+  isolated pigment motif; only its pigment was transferred onto bare rock.
+  All 1,920 changed pixels lie inside [627,420,737,467); every pixel outside
+  matches the ancestor, including Pepe, his five-digit hands and older marks.
+- Read/reused gathering/make_preview.py for standard-library RGB8 PNG decoding
+  and baseline JPEG encoding. Disposable processing scripts stay in task scratch.
+  Inspected the finished full PNG and JPEG; no extra workspace image remains.
+  Prompt, process, dimensions, formats, hashes and visual limits are retained.
+- Added record 40 and its 512px JPEG. Required wall-v21.png remains untracked
+  for separate upload; the inherited wall.png alias now points to it; no previous record or preview changed.
+- Offline Unicode review requires no coin, pool, balance, price or payment.
+  No dependency, configuration, environment, key, wallet, secret, signing,
+  sending, posting or deployment was used or changed.

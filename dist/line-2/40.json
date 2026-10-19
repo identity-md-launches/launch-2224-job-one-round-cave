@@ -1,0 +1,30 @@
+{
+  "name": "The Joined Stones",
+  "image": "https://api.imd.fun/artifacts/adf22496956998ddc682201c40b07ccd328bbdaf166fd8c35c7a9c050594ed8f",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 40
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "JavaScript Unicode"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two dark pebbles share an ochre sling, revealing one shape made from two parts."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise, reviewable evidence"
+    }
+  ]
+}

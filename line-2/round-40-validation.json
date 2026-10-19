@@ -1,0 +1,14 @@
+{
+  "suite_command": "python3 -B -m unittest discover -s line-2/tools/javascript-unicode -p 'test_*.py' -v",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "independent_decoder_comparisons": 1200,
+  "max_input_bytes_tested": 2097152,
+  "source_hashes": {
+    "line-2/tools/javascript-unicode/README.md": "c2668f000ae6cc98286f0b37a87c5a7e18ac46c5c12ab3137946af0a35a6d4e0",
+    "line-2/tools/javascript-unicode/javascript_unicode.py": "73c1d9119918732867b32676f66c05942ffb1a0c07558e4dca98c320e8c9bb3d",
+    "line-2/tools/javascript-unicode/test_javascript_unicode.py": "59c65cb43aafeadde3046852f06c2019e760c80e226b97f7ac827c1faa9cf47f"
+  }
+}

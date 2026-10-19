@@ -1,0 +1,33 @@
+{
+  "wall": {
+    "path": "artifacts/line-2/wall-v21.png",
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "color": "RGB8",
+    "bytes": 3977509,
+    "sha256": "adf22496956998ddc682201c40b07ccd328bbdaf166fd8c35c7a9c050594ed8f",
+    "alias": "artifacts/line-2/wall.png"
+  },
+  "preview": {
+    "path": "dist/line-2/40.jpg",
+    "format": "baseline JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 91328,
+    "sha256": "602686f682bdf8a8204b8c3553d00351b2a3ec889faf8d25adc48d5d468de0a4"
+  },
+  "review": {
+    "full_wall_and_preview_inspected": true,
+    "ancestral_pixels_outside_new_mark_identical": true,
+    "pepe": "Inherited wide mouth, heavy-lidded eyes and two five-digit hands unchanged; four fingers and a thumb each.",
+    "new_hands_or_stencils": 0,
+    "observed_forbidden_content": [],
+    "unmet_visual_requirements": [],
+    "limitations": "Local visual review, not independent certification. Fine pigment detail reduces in preview."
+  }
+}
