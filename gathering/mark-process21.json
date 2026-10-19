@@ -1,0 +1,26 @@
+{
+  "method": "Generated isolated pigment motif, transferred only nonblack mineral pigment to bare lower-right rock; no background regeneration.",
+  "image_tool": "image_gen.imagegen (built-in)",
+  "prompt": "A chalk pebble touches a red ochre open arc, with a yellow ochre trail; granular mineral pigments on black. No text or hands.",
+  "ancestor": "artifacts/gathering/wall-v20.png",
+  "ancestor_sha256": "0f9e130fc58603cedcd2e7f9df57898c5b362da358da0debb8c2d1cc4b0b4c15",
+  "generated_donor_sha256": "f709101fd47bfd67a28ac7f00b89e8fbbda7dea446c0ba61a5be3c93802a540b",
+  "donor_dimensions": [
+    1672,
+    941
+  ],
+  "donor_crop": [
+    480,
+    285,
+    1180,
+    565
+  ],
+  "destination_box": [
+    1040,
+    950,
+    1160,
+    1015
+  ],
+  "changed_pixels": 1556,
+  "preservation": "All decoded pixels outside the small pigment transfer are identical to Gathering 20."
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "dimensioned-order/v1",
+  "origin": "synthetic common trigger",
+  "semantics": "nonzero [start,end); zero-width exact point; all endpoints relative to asserted common origin",
+  "endpoints_seconds": [
+    {
+      "id": "point",
+      "start": "1/3",
+      "end": "1/3"
+    },
+    {
+      "id": "window",
+      "start": "1/3",
+      "end": "1/2"
+    },
+    {
+      "id": "later",
+      "start": "1/2",
+      "end": "3/5"
+    }
+  ],
+  "analysis": {
+    "events": 3,
+    "definite_orders": [
+      {
+        "before": "point",
+        "after": "later"
+      },
+      {
+        "before": "window",
+        "after": "later"
+      }
+    ],
+    "uncertain_pairs": [
+      {
+        "events": [
+          "point",
+          "window"
+        ],
+        "reason": "intervals overlap"
+      }
+    ]
+  },
+  "limits": "Checks supplied quantities and strict order only; origin alignment and clock bounds are assertions, not measurements or causality.",
+  "input_sha256": "584bf5ddd0dad6b9afb20d1d9b0f60efee58c99af883826510d76cc557838fba",
+  "engines_sha256": {
+    "lens_engine.py": "f6a22002a5ddc41d3da96698a35c7131bab5eaa437d499785719bda0662e67f2",
+    "unit_engine.py": "c683e558cdbdf6cf73d4b32572b6fa498b80e7816483b882bf2d51adfff3062e"
+  }
+}

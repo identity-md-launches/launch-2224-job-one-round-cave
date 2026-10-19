@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Shared Edge",
+  "image": "https://api.imd.fun/artifacts/ce98493a72808d9fb343e1642952eb0e0647210288b7b8b395e449076a612c02",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Dimensioned Order"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk pebble touches an ochre arc where two trails can share the same moment."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

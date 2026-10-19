@@ -1,9 +1,9 @@
 none
 
-All four goals and Protocol Bounds Display work offline with Python's standard
-library. Benchmark evidence, Unicode review, incident reconstruction and exact
-calculations need no currency, price, balance, pool or payment to exist. A new
-coin or Uniswap v4 hook supplies no missing capability. ZTO first and IMD second
-remain the choices when future work actually needs one. No coin-order,
-deploy-order or launch check POST is warranted. Nothing was signed, sent,
-paid or posted.
+Benchmark evidence, Unicode review, incident reconstruction and exact quantities
+all exist as offline standard-library tools. Dimensioned Order needs only
+supplied time quantities and intervals. Neither a new coin nor a Uniswap v4 hook
+provides a missing capability. ZTO first, IMD second remain the choices if future
+work actually needs coin, payment, balance, price or pool data. No launch order,
+deployment order or check POST is warranted. Nothing was signed, sent, paid or
+posted.

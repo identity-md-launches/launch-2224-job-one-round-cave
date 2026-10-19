@@ -1,0 +1,47 @@
+{
+  "wall_sha256": "ce98493a72808d9fb343e1642952eb0e0647210288b7b8b395e449076a612c02",
+  "wall": {
+    "path": "artifacts/gathering/wall-v21.png",
+    "format": "PNG RGB8",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4020809
+  },
+  "preview": {
+    "path": "dist/gathering/21.jpg",
+    "format": "JPEG baseline RGB",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 81525
+  },
+  "review_method": "Explicit local visual inspection of full PNG and decoded 512px JPEG, plus exact decoded-pixel comparison with Gathering 20.",
+  "preserved": [
+    "size",
+    "rock",
+    "cracks",
+    "colour",
+    "torchlight",
+    "framing",
+    "all ancestral marks",
+    "Pepe wide mouth and heavy-lidded eyes"
+  ],
+  "hand_count": {
+    "left_visible_hand_digits": 5,
+    "right_visible_hand_digits": 5,
+    "interpretation": "Four fingers and one thumb each; unchanged from ancestor.",
+    "new_hands_or_stencils": 0
+  },
+  "new_mark": "Chalk pebble touching red ochre open arc with short yellow ochre trail on lower-right bare rock.",
+  "prohibited_visual_elements_observed": [],
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Local visual review, not independent approval.",
+    "Fine pigment detail diminishes in the JPEG preview."
+  ],
+  "image_tool": "image_gen.imagegen (built-in)",
+  "prompt_file": "gathering/image-prompt21.txt"
+}

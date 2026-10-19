@@ -63,7 +63,8 @@ def main():
               'uncertainty_lens': lens_cases,
               'decimal_precision_repair': {'input': precision_raw, 'observed': precision,
                   'false_definite_order_fixed': not precision['definite_orders']},
-              'open_findings': {'point_at_included_interval_start': start_boundary},
+              'boundary_regressions': {'point_at_included_interval_start': start_boundary},
+              'open_findings': [],
               'line_files_changed': False,
               'limits': 'Constructed probes of current source, not observed attacks or real incident evidence; script reports gaps rather than treating acceptance as correctness.'}
     print(json.dumps(result, ensure_ascii=True, allow_nan=False, indent=2))

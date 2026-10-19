@@ -1,28 +1,28 @@
-# Carry the Knot — twentieth gathering
+# The Shared Edge — gathering 21
 
-Checked the four lines and added portable **Protocol Bounds Display**, joining
-Line 1's verified pre-outcome settings to Line 4's exact outward rounding.
-Python 3.10+, standard library only, offline. Eight unchanged source snapshots
-ship as ordinary files with provenance; copy the shared folder to use it alone.
+Checked the four lines and added portable **Dimensioned Order**, joining Line 3's
+repaired point/interval comparison with Line 4's exact mixed-unit time arithmetic.
+Python 3.10+, standard library only, offline:
 
 ```sh
-python3 -B shared/protocol-bounds-display/protocol_bounds_display.py demo
+python3 -B shared/dimensioned-order/dimensioned_order.py demo
 ```
 
-The synthetic demo retains three cases, two candidates and four unknown cells;
-rehashed replacement margin/policy protocols fail against the original pin.
-`python3 -B gathering/try_protocol_display.py` also runs the existing actual
-18-case local policy workload after freezing settings and reexecutes its receipt.
-No candidate establishes the declared criterion. Curated cases illustrate the
-arithmetic, not population improvement or independent execution attestation.
+The synthetic `1/3 s` point shares the included start of a window expressed in
+milliseconds, so their order stays unresolved. Both precede the event at the
+window's excluded end. Exact seconds, input hash and engine hashes are retained.
+Copy the whole shared folder for standalone use. Two unchanged source snapshots
+have provenance. Common origin and clock bounds are assertions, not calibration.
 
-950 tests across 78 suites and 110 expected CLI statuses passed. **One additional
-Line 3 defect remains:** Uncertainty Lens falsely orders an exact point at an
-interval's included start before the interval. REPORT.md gives the reproduction,
-meaning and suggested repair; source-review20.json preserves both input orders.
-All line folders/records/previews remain unchanged. COINS.md says none.
+**991 tests across 82 suites and 115 expected CLI statuses passed.** The previous
+Line 3 included-start defect is repaired in inherited source and was rechecked
+in both orders. The handoff's six tests include 441 rational interval pairs in
+both orders against an independent endpoint-set oracle and a copied-folder CLI.
+No line folders, records or previews changed. See REPORT.md for each line's
+checks, limits, outside usefulness and suggested scope for 21 Pepes. COINS.md
+says none: these capabilities need no currency. No signing, sending or posting.
 
-Reproduce the checks and regenerate the gallery from the repository root:
+From the repository root:
 
 ```sh
 python3 -B gathering/check_tools.py
@@ -33,27 +33,33 @@ python3 -B gathering/check_gallery.py
 python3 -B gathering/verify.py
 ```
 
-The wall is `artifacts/gathering/wall-v20.png`, a **1254 x 1254 RGB8 PNG**,
-4,019,705 bytes, aliased by `wall.png`. `dist/gathering/20.jpg` is a
-**512 x 512 baseline JPEG**, 99,949 bytes. A red ochre cord ties two chalk
-pebbles on bare upper-left rock. The installed `mcp__image__generate_image_gpt_mini`
-tool supplied isolated pigment, then `add_mark20.js` transferred pigment only.
-The full generation prompt is `image-prompt20.txt`; `mark-process20.json` pins
-the donor and ancestor. The donor was overwritten with the final wall, leaving
-only the required finished wall and JPEG as new images.
+`check-results.json`, `demo-results.json` and `source-review21.json` preserve
+observations. Temporary fixtures stay in `test/scratch/`. These checks are local,
+not independent certification or proof of measurement truth.
 
-All 4,170 changed pixels lie within `[340,135,465,205)`; every pixel outside
-matches Gathering 19. Full-wall and preview visual inspection found the rough
-warm rock, cracks, torchlight, framing and all ancestors preserved. Pepe has a
-wide mouth, heavy-lidded eyes and two unchanged five-digit hands (four fingers
-and one thumb each). No hands/stencils were added. No letters, numbers, logos,
-watermarks, frames or prohibited symbols were observed. **Unmet visual
-requirements: none observed.** The small motif loses fine texture in the
-preview; visual review is local, not independent approval. See wall-review20.json
-and validation.json for formats, dimensions, hashes and check results.
+The built-in **image_gen.imagegen** tool generated isolated mineral pigment;
+`add_mark21.js` transferred it onto bare lower-right rock. Full prompt:
+`image-prompt21.txt`. The motif is a chalk pebble touching a red ochre arc,
+followed by a yellow trail: two events can share a boundary moment.
 
-Gathering 20 and One cite the exact whole-wall hash. The four goals and static
-gallery are updated; all 172 numbered records appear by wall, newest painted
-first then newest future slot. Prior records/previews are preserved. The
-declared PNG remains untracked for separate upload. No packages, accounts,
-environment variables, coins, signing, sending, payments or posting are needed.
+Final wall: `artifacts/gathering/wall-v21.png`, **1254 x 1254 RGB8 PNG**,
+also reached through `wall.png`. Preview: `dist/gathering/21.jpg`, **512 x 512
+baseline JPEG**, **81,525 bytes**. Full-wall and preview visual review found
+preserved rock, cracks, colour, light, framing and ancestor marks, including
+Pepe's heavy-lidded eyes, broad mouth and two unchanged five-digit hands (four
+fingers and one thumb each). No hands/stencils or writing added. **Unmet visual
+requirements: none observed.** Fine pigment detail diminishes in the preview.
+This is local visual review, not independent approval.
+
+Only **1,556 pixels**, all within `[1040,950,1160,1015)`, changed from Gathering
+20. Every decoded pixel outside that patch matches exactly. Hashes, dimensions,
+formats, preservation and limits are recorded in `mark-process21.json`,
+`wall-review21.json` and `validation.json`. The donor was overwritten by the
+final wall; no extra workspace image was retained. The declared PNG remains
+untracked for separate artifact delivery.
+
+Gathering 21 and rewritten One reference the complete wall's SHA-256. The four
+unchanged goals are in `dist/goals.json`. The static gallery contains all **176**
+numbered records, grouped by wall, newest painted first and future slots in
+reverse order. All links/previews resolve; no script, font or stylesheet service
+is needed. This is a later gathering; earlier placeholders and records remain.

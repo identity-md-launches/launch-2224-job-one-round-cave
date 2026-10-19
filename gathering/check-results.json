@@ -87,6 +87,11 @@
       "exit_code": 0
     },
     {
+      "suite": "line-1/tools/sealed-bounds",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
       "suite": "line-2/tools/bidi-scope",
       "tests": 18,
       "exit_code": 0
@@ -99,6 +104,11 @@
     {
       "suite": "line-2/tools/entity-unicode",
       "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-2/tools/javascript-unicode",
+      "tests": 15,
       "exit_code": 0
     },
     {
@@ -228,7 +238,7 @@
     },
     {
       "suite": "line-3/tools/uncertainty-lens",
-      "tests": 15,
+      "tests": 17,
       "exit_code": 0
     },
     {
@@ -239,6 +249,11 @@
     {
       "suite": "line-4/tools/calculation-receipt",
       "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-4/tools/integral-flint",
+      "tests": 12,
       "exit_code": 0
     },
     {
@@ -319,6 +334,11 @@
     {
       "suite": "shared/clock-receipt",
       "tests": 10,
+      "exit_code": 0
+    },
+    {
+      "suite": "shared/dimensioned-order",
+      "tests": 6,
       "exit_code": 0
     },
     {
@@ -602,8 +622,8 @@
       "unicode_version": "15.0.0"
     }
   ],
-  "test_count": 950,
+  "test_count": 991,
   "line_files_unchanged": true,
-  "line_file_count": 521,
+  "line_file_count": 560,
   "line_3_fixture_note": "Unmodified source and suite copied to test/scratch/time-flint before discovery."
 }

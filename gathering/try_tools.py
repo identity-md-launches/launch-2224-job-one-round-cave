@@ -8,6 +8,11 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = [
+ ('mixed-unit exact interval order', ['shared/dimensioned-order/dimensioned_order.py','demo'],0),
+ ('sealed assets and bounds', ['line-1/tools/sealed-bounds/sealed_bounds.py','demo'],0),
+ ('JavaScript escaped Unicode', ['line-2/tools/javascript-unicode/javascript_unicode.py','--demo'],0),
+ ('JavaScript actual source candidates', ['line-2/tools/javascript-unicode/javascript_unicode.py','--file','line-2/tools/javascript-unicode/javascript_unicode.py','--max-details','2'],1),
+ ('exact dimensioned table integral', ['line-4/tools/integral-flint/integral_flint.py','demo'],0),
  ('protocol-bound outward display', ['shared/protocol-bounds-display/protocol_bounds_display.py','demo'],0),
  ('measured protocol-bound display', ['gathering/try_protocol_display.py'],0),
  ('pinned benchmark analysis settings', ['line-1/tools/bound-protocol/bound_protocol.py','demo'],0),
@@ -146,7 +151,7 @@ def main():
                     'opening_lines': run.stdout.splitlines()[:7]}
                 row['passed'] &= row['text']['printable_ascii_and_lf']
             # Small numeric/evidence summaries; full reports are reproducible.
-            keys = ['status_counts', 'max_lexical_depth', 'analysis_complete', 'duration_by_depth_us', 'rehashed_histogram_forgery_rejected', 'rehashed_altered_intermediate_rejected', 'clusters_checked', 'clusters_changing_decision_or_direction', 'durations_us', 'member_names', 'cases_changing_decision_or_direction', 'deletions_checked', 'details_omitted', 'complete_diagnostics_sha256', 'omitted_findings', 'total_bytes', 'token_count', 'distinct_skeletons', 'boundary', 'outside', 'margin', 'allowed_error', 'absolute_error', 'passes', 'case_count', 'recheck', 'rounded', 'exact_value', 'error', 'filters', 'comparison', 'lower', 'upper', 'within', 'pair', 'line_changes', 'consistent_replacement_rejected', 'runtime_mismatch_rejected', 'rejected_rehashed_replacement', 'analysis', 'asserted_total_bound_ms', 'different_valid_bound_rejected', 'matching_receipt', 'failed_bound_verified', 'failed_bound_calculation_exit', 'rehashed_altered_result_rejected', 'verified', 'retained_findings', 'truncated', 'altered_citation_rejected', 'paired_cases', 'table', 'test', 'candidates', 'comparison_threshold',
+            keys = ['candidate_count', 'rehashed_replacement_rejected', 'input_sha256', 'status_counts', 'max_lexical_depth', 'analysis_complete', 'duration_by_depth_us', 'rehashed_histogram_forgery_rejected', 'rehashed_altered_intermediate_rejected', 'clusters_checked', 'clusters_changing_decision_or_direction', 'durations_us', 'member_names', 'cases_changing_decision_or_direction', 'deletions_checked', 'details_omitted', 'complete_diagnostics_sha256', 'omitted_findings', 'total_bytes', 'token_count', 'distinct_skeletons', 'boundary', 'outside', 'margin', 'allowed_error', 'absolute_error', 'passes', 'case_count', 'recheck', 'rounded', 'exact_value', 'error', 'filters', 'comparison', 'lower', 'upper', 'within', 'pair', 'line_changes', 'consistent_replacement_rejected', 'runtime_mismatch_rejected', 'rejected_rehashed_replacement', 'analysis', 'asserted_total_bound_ms', 'different_valid_bound_rejected', 'matching_receipt', 'failed_bound_verified', 'failed_bound_calculation_exit', 'rehashed_altered_result_rejected', 'verified', 'retained_findings', 'truncated', 'altered_citation_rejected', 'paired_cases', 'table', 'test', 'candidates', 'comparison_threshold',
                     'smallest_evaluated_size_meeting_target', 'sizes', 'finding_count',
                     'assessment', 'sha256', 'value', 'unit', 'check', 'replay',
                     'tampered_report_rejected', 'tampered_timeline_rejected', 'review_errors',
@@ -163,7 +168,7 @@ def main():
         results.append(row)
     result = {'checks_passed': all(r['passed'] for r in results),
               'examples': results, 'note': 'Demos and fixtures are synthetic; the actual record scan checks real workspace bytes. No live system performance or incident is claimed.'}
-    print(json.dumps(result, indent=1))
+    print(json.dumps(result, separators=(',', ':')))
     return 0 if result['checks_passed'] else 1
 
 

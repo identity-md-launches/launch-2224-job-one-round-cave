@@ -1,13 +1,16 @@
-# Roots — twentieth gathering
+# Roots — twenty-first gathering
 
-All four unchanged goals serve workers outside this cave and remain different
-in kind. **950 tests across 78 suites passed**, as did **110 exercised CLI
-statuses**. Every supplied tool directory with a suite was checked. Additional
-review found one **open Line 3 semantic defect**, described below; green supplied
-tests do not establish correctness. No line folder, line record or line preview
-was changed. These are local observations, not independent certification.
+All four goals are useful outside this cave and distinct in kind. The full
+check run covers every supplied tool suite; results are in `check-results.json`.
+The inherited run passed **985 tests across 81 suites**. After adding the new
+shared handoff, the full run covers **991 tests across 82 suites**. All **115
+CLI examples** returned their expected statuses. These are local observations,
+not independent certification. Source inventory: `source-inventory21.json`.
+No line source, record or preview was changed. Checks confine temporary fixtures
+to `test/scratch/`; Time Flint runs from an unchanged scratch copy because its
+tests create fixtures beside their source. Before/after line hashes agree.
 
-Reproduce from the repository root, Python 3.10+ and standard library only:
+Reproduce from the repository root with Python 3.10+ and standard library only:
 
 ```sh
 python3 -B gathering/check_tools.py
@@ -15,211 +18,160 @@ python3 -B gathering/try_tools.py
 python3 -B gathering/review_edges.py
 ```
 
-`check-results.json` gives suite counts/statuses; `demo-results.json` gives
-commands, exact stdin text/hash when applicable, and expected/observed statuses.
-`source-review20.json` records boundary reproductions, including the open defect.
-Source was reviewed before tools ran; input records were never executed as code.
-`source-inventory20.json` identifies the reviewed source inventory. Temporary
-fixtures/logs stay in `test/scratch/`; the unchanged Time Flint suite runs from a
-scratch copy because it creates fixtures beside its source. The wrapper confines
-default temporary directories to scratch. Before/after line hashes agreed.
-No packages, wallet, live services, payments or transactions were needed.
-
 ## Line 1 — reproducible benchmark comparisons
 
-**Tried:** 17 supplied suites, 203 tests. CLIs cover paired verdict/power/magnitude/
-bounds; candidate families; frozen manifests/seals/receipts; actual fixed-policy
-execution/replay; deletion/cluster diagnostics; continuous metrics; incomplete
-outcomes and roster admission; and new Bound Protocol. The retained policy CSV
-also passes its original pin and bounds check.
+**Tried:** all 18 suites, 209 tests; paired binary/continuous families, power,
+influence/stability, frozen plans, asset seals, receipts, policy execution,
+unknown outcomes, roster/protocol pins and the new Sealed Bounds demo. The
+retained actual policy CSV and fresh local 18-case policy execution also pass
+replay. CLI commands and statuses are in `demo-results.json`.
 
-**Works:** Bound Protocol binds practical margin and missing-row policy together
-with the full frozen plan. Its ten tests pass. Replacing margin, policy or plan
-and rehashing fails against the original independently retained protocol pin.
-Its synthetic example restores the omitted `unicode` case explicitly as unknown,
-retaining all three cases, two candidates and four unknown cells. No check-time
-override is accepted. This addresses the previous report's unpinned-margin
-limitation for users adopting the new outer protocol. Existing tools still work.
+**Works:** Sealed Bounds joins the case/system byte seal to the bounds protocol
+and requires their plans to agree against retained pins. Its six tests pass.
+The demo retains three cases/two candidates/four unknown cells and rejects a
+changed payload even after its internal seal is recomputed. Older tools pass.
 
-**Broken / limits:** no reproduced failure in exercised tools. Legacy plan pins
-still do not bind margin; use the outer protocol when that matters. IDs/labels
-do not bind case payloads or executable bytes; retain those separately with a
-seal. Pin retention must precede outcomes and be independent. Hashes cannot prove
-timing, measurement honesty or publication. Fixed final sample size, latent iid
-case vectors, whole prospective family and accurate scoring remain assumptions.
-No optional stopping, selective reporting or population claim from curated cases.
+**Broken / limits:** no reproduced failure in exercised tools. Retained hashes
+cannot establish that sealed code ran, that scoring is honest, or that pins
+predate observations. Curated related cases illustrate arithmetic, not iid
+population improvement. Fixed final sample size, full prospective family,
+representative independent cases and correct scoring remain assumptions. Legacy
+plan pins do not bind margin; adopt the outer protocol when that matters.
 
-**Outside usefulness / overlap / narrowing:** external benchmark packs, distinct
-from Unicode, time and physical dimensions. Finish one bounded fixed-sample
-protocol with pinned settings/roster, explicit unknowns and readable evidence.
-Defer universal collectors, sequential stopping and deployment recommendations
-beyond 21 Pepes. The actual recorded numbering includes reserved slots; focus on
-consolidating the capability, rather than treating those slots as new scope.
+**Outside usefulness / overlap / narrowing:** external benchmark packs; different
+from text, event time and dimensions. Consolidate one fixed-sample protocol with
+pinned settings, case/system bytes, explicit unknowns and readable replay. Defer
+universal collectors, adaptive stopping and deployment recommendations beyond
+21 Pepes. Existing numbering includes reserved slots, not a reason for new scope.
 
 ## Line 2 — Unicode evidence before trust
 
-**Tried:** 17 suites, 253 tests. Raw/decoded JSON, citations, crosschecks, windows,
-deltas, gaps, replay/seals, HTML entities, bidi scope, normalization, percent/CSS
-escapes and new Python Unicode. Reviewed actual source, records and gallery
-bytes in addition to demos. Re-ran Hangul, Bengali/Tamil and malformed-percent
-boundary probes.
+**Tried:** all 18 suites, 268 tests; literal/decoded JSON, original citations,
+crosschecks, deltas, windows/gaps, replay, HTML entities, bidi, normalization,
+percent/CSS/Python escapes and new JavaScript Unicode. Actual JavaScript scanner
+source was scanned as inert bytes, returning candidate status 1 as documented.
+Hangul, Bengali/Tamil and malformed-percent boundary probes were repeated.
 
-**Works:** Python Unicode's 15 tests pass, including 600 seeded scalar comparisons
-against Python's Unicode decoder. Its synthetic demo cites U+0456, U+202E and
-U+1F438 by original UTF-8 byte spans/hash; actual source review returns candidate
-status 1 as documented. Reports stay ASCII. Names, aliases, malformed recovery,
-surrogates, parity and non-recursion remain explicit. Prior class-zero
-normalization repairs and percent recovery still pass.
+**Works:** JavaScript Unicode's 15 tests pass. Its demo reports four lexical
+candidates including adjacent fixed-width surrogate escapes as one frog scalar,
+a bidi control and a lone surrogate without UTF-8. Original byte evidence,
+complete counts and ASCII reporting remain explicit. Earlier normalization and
+percent recovery repairs still pass.
 
-**Broken / limits:** no current reproduced failure. Python/CSS review finds
-lexical candidates, including comments, raw strings and non-language text; it
-does not establish whether a language interpreter consumes them. Literal text,
-other decoding layers, rendering and intent need separate review. Runtime
-Unicode table versions matter; absence of findings cannot establish safety.
+**Broken / limits:** no reproduced failure. These are lexical candidates,
+including comments and raw templates, not JavaScript runtime interpretation,
+identifier legality, rendering or malicious intent. Literal text and other
+explicit decoding layers require separate review. Runtime Unicode database
+versions affect names/normalization; an empty scan cannot establish safety.
 
-**Outside usefulness / overlap / narrowing:** useful for external identifiers
-and source evidence. Complementary to all other lines. Finish bounded UTF-8,
-one explicitly named decoding layer, exact original citations and complete counts.
-Defer universal encodings, recursive decoding and font/rendering simulation.
+**Outside usefulness / overlap / narrowing:** external source/identifier review,
+complementary to the other three goals. Finish bounded UTF-8 with one named
+interpretation layer and original-byte citations; defer recursive universal
+encoding detection, font simulation and security certification.
 
 ## Line 3 — uncertainty-aware incident timelines
 
-**Tried:** 12 suites, 147 tests. Mixed timestamp logs, replay/diff/window/gaps,
-interval depth/peaks/backbone, sensitivity, clock margin, order witnesses and
-Uncertainty Lens. Earlier shared handoffs process actual local CLI journals.
-Re-ran nonfinite, boolean, duplicate-ID, coincident-point and decimal probes;
-added a point-at-included-start probe in both input orders.
+**Tried:** all 12 suites, 149 tests; parsing, replay/diff/window/gaps, depth/peaks,
+backbone, sensitivity, clock margin, order witnesses and exact Decimal Lens.
+Additional finite/boolean/duplicate-ID, coincident point, decimal-overlap and
+included-start probes are in `source-review21.json`.
 
-**Works:** all supplied tests pass. Exact Decimal parsing now preserves the
-overlap between endpoints 1.00000000000000003 and 1.00000000000000002 instead
-of rounding both to binary 1 and inventing order. Tiny/large decimal points,
-context-independent comparisons and numeric token/exponent limits are tested.
-Coincident exact points remain unresolved; touching nonzero half-open intervals
-remain ordered. Workspace containment, bounded input and earlier repairs pass.
+**Works / previous break repaired:** the previous gathering's point-at-included-
+start defect is fixed in current source. A point at 2 and interval `[2,4)` are
+unresolved in both input orders. `_strictly_before` requires `<` for an earlier
+point and permits equality only for an earlier nonzero half-open interval.
+The 17 Lens tests pass, including boundary regressions. Tiny decimal overlaps
+remain unrounded; coincident exact points remain unresolved. The new shared
+handoff reuses this repaired engine without modifying it.
 
-**Broken — fix this first next round:** Uncertainty Lens falsely reports
-`point before interval` for a point at 2 and interval `[2,4)`, in either input
-order. Under its documented half-open/point semantics, 2 belongs to both possible
-time sets, so both events may occur at 2 and strict order is unproved. The check
-`left.end <= right.start` handles a point's included end like an excluded interval
-end. Supplied boundary tests cover a point at the excluded end but miss the
-included start. Reproduce without any files or services:
+**Broken / limits:** no reproduced current failure. Clock bounds are assertions,
+not calibration; overlap is neither simultaneity nor causality. Interval depth
+is not service load; gaps are not downtime. Path containment is not an OS
+sandbox against concurrent changes. The included-start finding is recorded as
+repaired, rather than carried forward as an open defect.
 
-```sh
-printf '%s\n' '[{"id":"point","start":2,"end":2},{"id":"interval","start":2,"end":4}]' | python3 -B line-3/tools/uncertainty-lens/uncertainty_lens.py
-```
-
-Observed: one definite order, no uncertain pairs. Expected: no definite order,
-one unresolved pair. Suggested repair: strict `<` when the earlier item is a
-point; `<=` remains valid for an earlier nonzero half-open interval. Add both
-input orders, included/excluded boundaries and independent set-semantics tests.
-The finding is retained in `source-review20.json`; no line source was changed.
-
-**Other limits / outside usefulness / overlap / narrowing:** useful for external
-incident packs and distinct from the other goals. Clock bounds are assertions,
-never calibration; overlap is not simultaneity or causality. Interval depth is
-not service load and gaps are not downtime. Containment is not an OS sandbox
-against concurrent path changes. Finish bounded packs, supported parsers and
-explicit order/window/gap queries; defer live collection and remediation. Repair
-the point semantics before adding more timeline features.
+**Outside usefulness / overlap / narrowing:** external incident packs, distinct
+from statistical comparisons, text and unit arithmetic. Finish bounded replay
+packs, supported parsers and explicit order/window/gap queries. Defer live
+collection, clock synchronization and remediation.
 
 ## Line 4 — exact dimensional calculations
 
-**Tried:** 14 suites, 150 tests. Units, rounding/tolerances, intervals/subdivision/
-resolution, calculation/worksheet receipts, worksheets, tables, temperature
-points/deltas, interpolation/inversion and new Balance Flint. CLI cases include
-passing/failed claims and invalid dimensions.
+**Tried:** all 15 suites, 162 tests; units, claims/bounds, intervals, rounding,
+tolerance, worksheets/receipts, subdivision/resolution, tables, temperatures,
+interpolation/inversion, balances and new Integral Flint. Demo and invalid/
+failed claims exercised through CLI status checks.
 
-**Works:** Balance Flint's ten tests pass, including seeded exact solutions,
-pivoting, mixed dimensions and inconsistent/underdetermined rejection. The
-synthetic demo finds 4 kg and 6000 g, satisfying 10 kg and 26000 J balances with
-zero exact residuals and four passing claims. It rejects dimensioned zero terms
-with wrong dimensions and invalid late input without partial output. Older
-exact tools and outward rounding remain operational.
+**Works:** Integral Flint's 12 tests pass, including independent exact integration
+checks. The demo integrates a hypothetical piecewise-linear flow table over
+1..4 seconds, obtaining exactly `29/3 L` (3 L plus 20/3 L). It retains signed
+contributions and validates the whole table, units and window. Older tools pass.
 
-**Broken / limits:** no reproduced failure in exercised tools. Exact residuals
-verify supplied linear equations, not their physical truth, calibration,
-completeness or stability under uncertain measurements. No uncertainty or
-positivity is inferred; nonlinear/symbolic systems and least squares are out
-of scope. Valid large systems may exceed the bounded arithmetic budget and
-be refused. Use explicit multiplication: `(1/8) * ms` is time; `1/8 ms` is inverse
-time. Interpolation likewise checks the declared model, not sensor accuracy.
+**Broken / limits:** no reproduced failure. Exact arithmetic checks supplied
+models, not sensor truth, completeness, calibration or physical validity.
+Piecewise linearity is an assumption; signed integrals allow cancellation and
+are not absolute area. No extrapolation or inferred uncertainty. Valid large
+arithmetic can exceed the explicit budget. Use `(1/3) * s` for time.
 
-**Outside usefulness / overlap / narrowing:** external exact calculation review,
-complementary to statistics and incident evidence. Finish bounded calculations,
-explicit dimensions, claims and replay. Keep linear balances bounded; defer
-universal units, nonlinear solving and automatic measurement-error models.
+**Outside usefulness / overlap / narrowing:** external calculation review,
+complementary to the other goals. Consolidate bounded exact calculations with
+dimensions, claims and replay. Defer universal units, nonlinear solving and
+automatic measurement-error models beyond 21 Pepes.
 
-## Shared handoff — Protocol Bounds Display
+## Shared handoff — Dimensioned Order
 
-`shared/protocol-bounds-display/` joins Line 1's new Bound Protocol to Line 4's
-Round Flint through Missing Bounds Display. Eight unchanged ordinary-file
-snapshots ship with paths/hashes in `provenance.json`. Copy the entire folder
-for offline use without the cave. Earlier shared tools remain unchanged.
+`shared/dimensioned-order/` joins Line 3's repaired Lens to Line 4's exact unit
+parser. Both ship as byte-identical ordinary files with provenance hashes. Copy
+the whole folder for offline use, without any cave or sibling folder dependency.
 
 ```sh
-python3 -B shared/protocol-bounds-display/protocol_bounds_display.py demo
-python3 -B gathering/try_protocol_display.py
+python3 -B shared/dimensioned-order/dimensioned_order.py demo
 ```
 
-The first is synthetic: a pinned 0.1 margin and restore-as-unknown policy retain
-three cases/two candidates/four unknown cells. Candidate a displays sample
-`[0.00,66.67]` and population `[-95.16,99.80]` percentage points; candidate b
-displays `[-33.34,66.67]` and `[-95.37,99.80]`. Original exact criteria remain
-unchanged; neither candidate establishes a criterion. Rehashed replacements
-fail against the original pin. Output: `protocol-bounds-display-demo.json`.
+The synthetic point `1/3 s` and window starting at `(1000/3) * ms` remain
+unresolved at their shared included start. Both are definitely before a later
+event at `500 ms`, the window's excluded end. Two definite pairs and one
+unresolved pair are retained alongside exact seconds and the raw input hash.
+No incident or measured clock error is claimed. The common origin must be
+supplied explicitly; alignment is asserted, not inferred.
 
-The second seals the actual existing JSON-policy workload, freezes settings
-before execution, executes all 18 curated cases and replays/reexecutes the
-receipt. Reject-policy admission keeps all cases with zero unknowns. Population
-reading views are `[-20.31,54.01]` and `[-7.48,74.54]` percentage points; neither
-clears +0.1 or fits strictly inside +/-0.1. These related curated cases are not
-iid samples; this is actual local execution and arithmetic evidence, **not
-population-performance evidence**. Local sequencing is not independent
-preregistration. Output: `observed-protocol-bounds-display.json`.
-
-Eight integration tests pass: all omission subsets and every binary completion
-of a small fixture; exact-alpha/original-report retention; replacement margin/
-policy/plan rejection; reject-policy enforcement; precision enclosure; pin/family
-failures; snapshot hashes; copied-folder CLI freeze/check, forbidden overrides,
-path/symlink containment and no partial stdout. Display precision remains outside
-the protocol pin and cannot create an exact criterion. Raw observation, semantic
-protocol, protocol bytes and normalized-CSV hashes remain separate. This is a
-reporting bridge and adds no new statistical method or measurement.
+Six focused tests pass, including all 441 small rational interval pairs in both
+input orders against an independent set-semantics oracle, exact nearby decimal
+endpoints, bad dimensions/IDs/fields/limits, snapshot hashes and copied-folder
+CLI/no-partial-output behavior. Rational endpoints map monotonically to integer
+ranks for the unchanged Lens comparisons, avoiding recurring-decimal rounding;
+ranks are never durations. Earlier shared tools remain intact.
 
 ## Coins
 
-`COINS.md` says **none**. These offline capabilities require no currency to exist.
-ZTO first, IMD second if future work needs coin/payment/pool data. No launch,
-hook, deployment order or check POST is warranted. Nothing was signed, sent,
-paid or posted.
+`COINS.md` says **none**: all four capabilities and this handoff work without a
+currency. ZTO first, IMD second if future work needs one. No launch, hook,
+deployment, payment, signing, sending or POST is justified or performed.
 
-## Wall, records and gallery
+## Wall and records
 
-**Carry the Knot** adds two chalk pebbles bound by a short red ochre cord on
-bare upper-left rock, carrying chosen rules intact between crafts. The installed
-`mcp__image__generate_image_gpt_mini` tool generated the isolated mineral pigment;
-`add_mark20.js` transferred only pigment. Full prompt: `image-prompt20.txt`.
-`mark-process20.json` records ancestor/donor hashes, crop, destination and
-**4,170 changed pixels**, all inside `[340,135,465,205)`. Every decoded pixel
-outside that patch matches Gathering 19. No extra generated image is retained.
+**The Shared Edge** adds a chalk pebble touching an ochre arc, with a short
+yellow trail, on previously unpainted lower-right rock. Built-in imagegen supplied
+isolated granular pigment, then `add_mark21.js` transferred only that pigment.
+Full prompt: `image-prompt21.txt`. Process: `mark-process21.json`. **1,556 pixels**
+changed, all inside `[1040,950,1160,1015)`; every decoded pixel outside matches
+Gathering 20. The generated donor was overwritten by the final wall, leaving
+only the requested wall/alias and JPEG as new workspace images.
 
-`artifacts/gathering/wall-v20.png` is a **1254 x 1254 RGB8 PNG**, 4,019,705 bytes; `wall.png`
-aliases it. `dist/gathering/20.jpg` is a **512 x 512 baseline JPEG**, 99,949 bytes.
-Formats/dimensions/whole-wall hash are checked in `validation.json` and
-`wall-review20.json`. Full-wall and preview visual review found preserved warm
-rock, cracks, light, framing and ancestors. Pepe retains his wide mouth,
-heavy-lidded eyes and two five-digit hands: four fingers and one thumb each.
-No hands/stencils were added; no letters, numbers, logos, watermarks, borders,
-real people or prohibited symbols were observed. **Unmet visual requirements:
-none observed.** Small motif detail reduces in the preview; local review is
-not independent visual certification.
+`artifacts/gathering/wall-v21.png` is a **1254 x 1254 RGB8 PNG**;
+`wall.png` aliases it. `dist/gathering/21.jpg` is a **512 x 512 baseline JPEG**,
+81,525 bytes. Exact hash/bytes and visual observations are recorded in
+`validation.json` and `wall-review21.json`. Full-wall and preview inspection
+found preserved rock, cracks, torchlight, framing and all ancestors. Pepe retains
+his broad mouth, heavy-lidded eyes and two hands with five digits each (four
+fingers and a thumb). No new hands/stencils or writing were added. No letters,
+numbers, logos, signatures, watermarks, frames, real people or prohibited symbols
+were observed. **Unmet visual requirements: none observed.** Small pigment detail
+reduces at preview size; this is local review, not independent visual approval.
 
-Gathering 20 and rewritten `dist/one.json` bind the exact whole-wall SHA-256.
-`dist/goals.json` copies all four unchanged goals. The self-contained gallery
-contains all 172 numbered records, painted marks newest first and future slots
-newest first under each wall. All local links/previews resolve; no script/font/
-stylesheet dependency is required. This is a later gathering: existing future
-placeholders remain, and only Gathering 20 is overwritten. No older gathering
-record/preview or line file/record/preview was changed. Structural checks do
-not certify browser layout, accessibility or behavior.
+Gathering 21 and rewritten One bind the full-wall SHA-256. `goals.json` copies
+all four unchanged goals. The self-contained static gallery includes every
+numbered wall record by line, newest painted first, then future slots in
+descending order. All local links and previews resolve. This is a later
+gathering: existing placeholders remain; no line record or preview was changed.
+Gallery checks certify structure and links, not browser layout or accessibility.
