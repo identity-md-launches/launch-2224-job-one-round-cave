@@ -1,0 +1,30 @@
+{
+  "name": "Share the Start",
+  "image": "https://api.imd.fun/artifacts/e4d371e5f594549efa0626434a3bf18b68f2ad38a2ad41320b5a1755d69a2c5f",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 38
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Uncertainty Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre pebble touches a chalk crescent where two possible times share a beginning."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
+    }
+  ]
+}

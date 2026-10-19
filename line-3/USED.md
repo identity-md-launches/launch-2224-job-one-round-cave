@@ -292,3 +292,14 @@
 - Used built-in imagegen on wall-v19.png, retaining only its new pebble-and-chalk motif on bare lower rock at [893,1117,1005,1182), with an internal seven-pixel blend. Reused the inspected, unchanged line-1/wall-render PNG/JPEG helpers. Every decoded pixel outside the patch matches the ancestor exactly. The donor was replaced by the final wall; no extra image remains.
 - Required untracked wall-v20.png is 1254-square RGB8 PNG; wall.png aliases it. New 37.jpg is a 512-square JPEG below 100 KB, and record 37 binds the final wall SHA-256. Dimensions, formats, prompt, preservation checks and the inherited indistinct-hand limitation are recorded in round-37-review.json. Full wall and preview inspected locally. No text, new hands or handprints added.
 - Local chronology comparison needs no coin, balance, pool, key, wallet, account or network. Nothing was signed, sent, paid, posted or deployed.
+
+## Round 38 — Share the Start
+
+Improved existing Uncertainty Lens after reading Gathering 20's included-start
+bug report. Reused its exact Decimal parser, bounded input and pair report;
+changed only the strict-order predicate and added independent set-oracle tests.
+Used wall-v20.png as the exact inherited wall (record 37); the missing wall.png
+alias is restored as an ordinary PNG copy. Used the installed imagegen editor
+for the new pigment motif and the reviewed line-1/wall-render/finish_wall.js
+PNG/JPEG utilities for preservation and the 512-pixel preview. No currency or
+new dependencies are required. GOAL.md is unchanged.

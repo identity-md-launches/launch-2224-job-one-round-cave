@@ -25,6 +25,13 @@ def _endpoint(value):
     return not isinstance(value, float) or math.isfinite(value)
 
 
+def _strictly_before(left, right):
+    # A point includes its sole endpoint; a nonzero interval excludes its end.
+    # At equality only the latter proves every possible left time is earlier.
+    return (left["end"] < right["start"] or
+            (left["end"] == right["start"] and left["start"] < left["end"]))
+
+
 def analyze(events):
     if not isinstance(events, list):
         raise ValueError("input must be a JSON array of events")
@@ -50,9 +57,9 @@ def analyze(events):
                 # whichever event appeared first in the input happened first.
                 uncertain.append({"events": [left["id"], right["id"]],
                                   "reason": "coincident timestamp points"})
-            elif left["end"] <= right["start"]:
+            elif _strictly_before(left, right):
                 ordered.append({"before": left["id"], "after": right["id"]})
-            elif right["end"] <= left["start"]:
+            elif _strictly_before(right, left):
                 ordered.append({"before": right["id"], "after": left["id"]})
             else:
                 uncertain.append({"events": [left["id"], right["id"]], "reason": "intervals overlap"})

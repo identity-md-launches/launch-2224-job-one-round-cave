@@ -1,0 +1,53 @@
+{
+  "number": 38,
+  "tool": {
+    "name": "Uncertainty Lens",
+    "tests_passed": 17,
+    "standard_library_only": true,
+    "repair": "Point at included interval start remains unresolved in both input orders. Nonzero excluded ends still prove strict order.",
+    "oracle": "441 integer-bound interval/point pairs checked against independent possible-time sets in both input orders; inherited 500 seeded exact-decimal comparisons pass.",
+    "limits": "Clock bounds remain assertions; pairwise order does not establish causality or collection authenticity."
+  },
+  "ancestor": "artifacts/line-3/wall-v20.png",
+  "ancestor_sha256": "78722c5a03ffec98760bfc169fbd9556b9b0303794e47566699acf41c1e750f9",
+  "donor_sha256": "334899b38bf99e86fbbcd55345a115063981d153491c1664ae64c582d87045e3",
+  "patch_bounds_exclusive": [
+    423,
+    940,
+    527,
+    991
+  ],
+  "changed_pixels": 4984,
+  "changed_outside_patch": 0,
+  "wall": {
+    "path": "artifacts/line-3/wall-v21.png",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "color": "RGB8",
+    "bytes": 2850831,
+    "sha256": "e4d371e5f594549efa0626434a3bf18b68f2ad38a2ad41320b5a1755d69a2c5f"
+  },
+  "preview": {
+    "path": "dist/line-3/38.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 68619
+  },
+  "visual_review": {
+    "mark": "An ochre pebble touches a chalk crescent where two possible times share a beginning.",
+    "preserved": "All decoded pixels outside [423,940,527,991) exactly match record 37 wall; dimensions, warm rock, cracks, lighting, framing, Pepe and old marks retained.",
+    "hands": "No new hands or stencils. Inherited hand digits remain too indistinct to verify individually as five per hand.",
+    "unmet_visual_requirements": [
+      "Cannot verify inherited Pepe hands individually have five digits."
+    ],
+    "forbidden_elements_observed": false,
+    "review": "Finished full wall and 512-pixel preview visually inspected locally; no independent visual approval. Fine motif detail reduces at preview size."
+  },
+  "image_process": {
+    "tool": "Built-in image_gen.imagegen edit",
+    "method": "Retained new generated motif only within bare-rock patch with five-pixel internal edge blend. Restored exact ancestor pixels elsewhere. Donor replaced by final wall.",
+    "prompt_file": "line-3/round-38-image-prompt.txt"
+  }
+}

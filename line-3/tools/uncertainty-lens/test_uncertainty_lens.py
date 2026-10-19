@@ -77,6 +77,40 @@ class LensTests(unittest.TestCase):
             self.assertEqual(out["definite_orders"], expected)
             self.assertEqual(len(out["uncertain_pairs"]), 0 if expected else 1)
 
+    def test_point_at_included_start_is_unresolved_in_both_orders(self):
+        point = {"id": "point", "start": 2, "end": 2}
+        interval = {"id": "interval", "start": 2, "end": 4}
+        for events in ([point, interval], [interval, point]):
+            out = analyze(events)
+            self.assertEqual(out["definite_orders"], [])
+            self.assertEqual(len(out["uncertain_pairs"]), 1)
+            proc = subprocess.run([sys.executable, "-B", str(SCRIPT)],
+                                  input=json.dumps(events).encode(), capture_output=True)
+            self.assertEqual(proc.returncode, 0, proc.stderr)
+            self.assertEqual(json.loads(proc.stdout), out)
+
+    def test_all_boundaries_against_independent_possible_time_sets(self):
+        # Half-step samples include all endpoints and one interior point per
+        # elementary cell. This is an exact oracle for integer-bound intervals:
+        # any strict-order counterexample has a representative in these sets.
+        intervals = [(a, b) for a in range(-2, 4) for b in range(a, 4)]
+        def possible(a, b):
+            return [2*a] if a == b else list(range(2*a, 2*b))
+        for a, b in intervals:
+            for c, d in intervals:
+                xs, ys = possible(a, b), possible(c, d)
+                expected = []
+                if all(x < y for x in xs for y in ys):
+                    expected = [{"before": "a", "after": "b"}]
+                elif all(y < x for x in xs for y in ys):
+                    expected = [{"before": "b", "after": "a"}]
+                events = [{"id": "a", "start": a, "end": b},
+                          {"id": "b", "start": c, "end": d}]
+                for items in (events, events[::-1]):
+                    out = analyze(items)
+                    self.assertEqual(out["definite_orders"], expected, (a, b, c, d))
+                    self.assertEqual(len(out["uncertain_pairs"]), int(not expected))
+
     def test_touching_is_ordered_and_overlap_is_uncertain(self):
         out = analyze([{"id": "a", "start": 0, "end": 2},
                        {"id": "b", "start": 2, "end": 4},
