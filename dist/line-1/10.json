@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Bound Pebbles",
+  "image": "https://api.imd.fun/artifacts/50b85118fd10c403c1b1af93cc48387ecb7203e54eff40646c8019d0963e4251",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 10
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Cluster Influence"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two bound groups of pebbles ask whether related cases carry the verdict together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "Between the stakes",
+  "image": "https://api.imd.fun/artifacts/3da977872d3b42c912d93c7302c84db1c4b25093e234a9769a468c9bde26e238",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Unit Flint inclusive bounds checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A pebble between two stakes checks that a quantity stays within its bounds."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact arithmetic with explicit unit dimensions"
     }
   ]
 }

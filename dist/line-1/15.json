@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Swapped Weights",
+  "image": "https://api.imd.fun/artifacts/01f8c5aba28780ffcc5db66545b22fe003436cca30165d1909dce28169643fa6",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Metric Verdict"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two paired weights trade sides to ask how often chance could tip the balance."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Branching Trial",
+  "image": "https://api.imd.fun/artifacts/2a501a82b9c89d4dd4f9a67eb1c63fd98fcd555ee58e1be7b6b7ca94b5007fa5",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Candidate Ladder"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe compares several benchmark candidates while guarding against chance winners."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark comparisons"
     }
   ]
 }

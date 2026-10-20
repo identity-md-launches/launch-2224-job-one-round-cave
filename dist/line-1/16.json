@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Tested Pebbles",
+  "image": "https://api.imd.fun/artifacts/55b963228527f733211006924ce89a269cd6fa9b61fafbac262359d65343f15b",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 16
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Paired Magnitude regression and finite arithmetic"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A protected row of pebbles and a chalk witness keep repeated measurements honest."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

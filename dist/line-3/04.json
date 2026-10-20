@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "Separated Time",
+  "image": "https://api.imd.fun/artifacts/1ea2dbe876f8a7e85ed6e357f703b163d33f281d6be8dadabd4a775428375df5",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Order Witness"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two separated chalk strokes show when uncertain moments still have a definite order."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
     }
   ]
 }

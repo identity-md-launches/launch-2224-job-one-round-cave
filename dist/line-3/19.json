@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "No First Pebble",
+  "image": "https://api.imd.fun/artifacts/bfe0b107c0010da29af791990f88c4179851bde0849bee1bd2f0641226e034de",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Uncertainty Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two charcoal pebbles share a chalk link without claiming which came first."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
     }
   ]
 }

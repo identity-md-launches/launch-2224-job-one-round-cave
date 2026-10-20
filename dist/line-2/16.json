@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Forked Reveal",
+  "image": "https://api.imd.fun/artifacts/758d8c0ea9c7a1c40918651dcd9985afa7485c2a4011fc716f603bf21d1cb451",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 16
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Unicode Normalization"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A charcoal fork reaches a red ochre seed, exposing a hidden branch."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise, reviewable evidence"
     }
   ]
 }

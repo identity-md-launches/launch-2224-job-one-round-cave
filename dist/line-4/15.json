@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Narrowing Twig",
+  "image": "https://api.imd.fun/artifacts/8b1741762712674e32216945eeb3501f74240e2387ce55faf62a41c085a89154",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Resolution Flint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two unequal pebbles on a forked twig compare which narrower input bounds help a calculation."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact dimensional calculation checks"
     }
   ]
 }

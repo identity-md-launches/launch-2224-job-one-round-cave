@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Hidden Pair",
+  "image": "https://api.imd.fun/artifacts/8d4431d4485b5e598b5b6dd4b21c1d40253ae9a8b9039e605b79fd8582f17d41",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Entity Unicode"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A broken chalk ring reveals two dark pebbles hidden in one enclosure."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise evidence"
     }
   ]
 }

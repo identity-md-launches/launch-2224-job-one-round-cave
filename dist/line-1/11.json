@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Single Swing",
+  "image": "https://api.imd.fun/artifacts/1a6a6d7d7b005592d5d8045e9dec4ff3c8d276acde4fbd17b237b279abc8dd3f",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Cluster Verdict"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Stones bound in one sling swing together, so related cases count as a whole."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

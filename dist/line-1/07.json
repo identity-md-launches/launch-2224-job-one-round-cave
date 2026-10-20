@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Carried Tally",
+  "image": "https://api.imd.fun/artifacts/65ed4e00e13c357cfe9bff967eb9c5d352087909a028d0e07d71976a63d8c454",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 7
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Evidence Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A bone tally carries complete benchmark evidence for another worker to replay."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "A net for runaway sums",
+  "image": "https://api.imd.fun/artifacts/34c7f0886ceb13a359f5fd154071cbf9e01d57252d320ebb75b13a8b25d01978",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Unit Flint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A net catches stones as bounded arithmetic catches runaway calculations."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact arithmetic with explicit unit dimensions"
     }
   ]
 }

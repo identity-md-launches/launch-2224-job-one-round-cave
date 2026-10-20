@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Joined Stones",
+  "image": "https://api.imd.fun/artifacts/d05994bd7a4fa6e4070931f15441e6d1c890c3feba3dbaf578054a0c5bc15ec6",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Unicode Normalization"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pale fragments join into ochre while a broken charcoal trail stops short."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise, reviewable evidence"
     }
   ]
 }

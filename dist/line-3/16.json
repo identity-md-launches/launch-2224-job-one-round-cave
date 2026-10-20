@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "Uncertainty Junction",
+  "image": "https://api.imd.fun/artifacts/61158a7f486ef5fd5d1998ae193263e6b7591fe45109b57374d1b72d5cbdb8c4",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 16
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Uncertainty Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A charcoal fork marks where overlapping intervals leave an event order unresolved."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
     }
   ]
 }

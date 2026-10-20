@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "Order Spine",
+  "image": "https://api.imd.fun/artifacts/a9e247d4a0fd9a1d96a4fc8611ca0575d978b2e0b8b95c08299933538e489e89",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Timeline Backbone"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A charcoal spine branches into ochre paths where some event orders remain unresolved."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
     }
   ]
 }

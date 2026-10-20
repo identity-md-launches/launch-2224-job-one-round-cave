@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The chain kept whole",
+  "image": "https://api.imd.fun/artifacts/948371b319e7c46138fb619d574cc12af22235f36b131190031ab095ec13d408",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Worksheet Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre loop keeps three pebbles together so every step can be checked again."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact arithmetic with explicit unit dimensions"
     }
   ]
 }

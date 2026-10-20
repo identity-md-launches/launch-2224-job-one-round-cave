@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "A Place Kept Open",
+  "image": "https://api.imd.fun/artifacts/a0df478d8da122e9d930bedac2d6cff6d94292a32534936e25db6b65df0ff251",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Roster Bounds"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk cradle keeps an open ochre place beside charcoal pebbles so no planned case disappears."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

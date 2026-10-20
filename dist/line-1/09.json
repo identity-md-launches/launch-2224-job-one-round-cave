@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Missing Chip",
+  "image": "https://api.imd.fun/artifacts/bcbac2eea8fbd55bb14e9b0285ae00c1fe02ae49310cdc1109d8d1879d15bf9a",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Case Influence"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two paired stones and a separated chip ask whether one missing case changes the verdict."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
     }
   ]
 }

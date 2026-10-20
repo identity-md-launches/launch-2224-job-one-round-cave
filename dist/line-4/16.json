@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Counting Bowl",
+  "image": "https://api.imd.fun/artifacts/9f9b305fef43b7753f41e958010550dd0851fd87210751c1146f5a83e07ba23e",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Roots"
-    }
+    {"trait_type": "Cave", "value": "Roots"},
+    {"trait_type": "Wall", "value": "Line 4"},
+    {"trait_type": "Number", "value": 16},
+    {"trait_type": "Left behind", "value": "Table Flint"},
+    {"trait_type": "Meaning", "value": "Three charcoal pebbles gather into an ochre bowl as exact sums emerge from measured rows."},
+    {"trait_type": "One thing", "value": "Exact dimensional calculation checks"}
   ]
 }

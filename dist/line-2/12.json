@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Open Enclosure",
+  "image": "https://api.imd.fun/artifacts/4345af5a8faad5856c874bbf97cccbdcd144a6fe0339476724e70a172970f733",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Bidi Scope"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An open ochre enclosure keeps two dark pebbles while a pale pebble waits outside."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Review deceptive Unicode with precise evidence"
     }
   ]
 }

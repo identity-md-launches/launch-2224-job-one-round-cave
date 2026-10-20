@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "Where Traces Gather",
+  "image": "https://api.imd.fun/artifacts/6870b1404b48b0fcf0d3af70924e6473f4f2230e5fd47d3f55198c200b4af9a1",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Roots"
-    }
+    {"trait_type": "Cave", "value": "Roots"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 12},
+    {"trait_type": "Left behind", "value": "Timeline Load"},
+    {"trait_type": "Meaning", "value": "Three worn strokes thicken where uncertain event times overlap."},
+    {"trait_type": "One thing", "value": "Reproducible incident timelines"}
   ]
 }
